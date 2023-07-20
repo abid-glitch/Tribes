@@ -1,0 +1,97 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contributions</title>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="main.css">
+
+<link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,600,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> 
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <div class="nav-links" id="navLinks">  
+                <i class="fa fa-close" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">TRIBES</a></li>
+                    <li><a href="course.html">EXPLORE</a></li>
+                    <li><a href="blog.html">CONTRIBUTION</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+            <h1 style="font-size: 70px; font-weight: 300;">YOU CAN ADD YOUR CONTRIBUTION HERE</h1>
+    </section>
+    
+    
+    <section class="blog-content">
+    <div class="row">
+    <div class="blog-left">
+        <div class="notes" id="app">
+            <!-- <div class="notes__sidebar">
+                <button class="notes__add" type="button">Add Note</button>
+                <div class="notes__list">
+                    <div class="notes__list-item notes__list-item--selected">
+                        <div class="notes__small-title">Lecture Notes</div>
+                        <div class="notes__small-body">I learnt nothing today.</div>
+                        <div class="notes__small-updated">Thursday 3:30pm</div>
+                    </div>
+                </div>
+            </div>
+            <div class="notes__preview">
+                <input class="notes__title" type="text" placeholder="Enter a title...">
+                <textarea class="notes__body">I am the notes body...</textarea>
+            </div> -->
+        </div>
+        <div class="comment-box" style="position: absolute; left: 60px; width: 40vw;">
+            <h3 style="color: white; font-size: 30px;">Leave a comment</h3>
+            <form class="comment-form">
+                    <input type="text" placeholder="Enter Name">
+                    <input type="email" placeholder="Enter email">
+                    <textarea rows="5" placeholder="Your Comment"></textarea>
+                    <button type="submit" class="hero-btn" style="font-size: 20px;">POST COMMENT</button>
+            </form>
+        </div>
+    </div>
+        
+   
+    
+    </div>
+    </section>
+    
+<!-------- footer ---------->
+
+<section class="footer" style="position: absolute; right: 0; margin-left: 50%; width: 50%; ">
+        <h4 style="color: white; font-size: 30px;">About Us</h4>
+        <p style="color: rgb(204, 166, 212); font-size: 20px;">
+            Hereby, submitting the whole website with proper design and architecture. <br>
+           <b> Vishakha Negi, Sakshi Kumari, Alina Ali, Diksha Chauhan</b>
+          </p>        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+        </div>
+        <p style="color: white; font-size: 15px;">made with <i class="fa fa-heart-o"></i> by Team</p>
+</section>    
+  
+<script src="main.js" type="module"></script>
+ 
+<!----JavaScript for toggle menu---->
+<script>
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu() {
+        navLinks.style.right = "0";
+    }
+
+    function hideMenu() {
+        navLinks.style.right = "-200px";
+    }
+</script> 
+    
+</body>
+</html>    
